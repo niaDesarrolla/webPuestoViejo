@@ -1,0 +1,243 @@
+
+/* Reinicio de css personalizado */
+
+html {
+  margin: 0px;
+
+  }
+
+  /* resto del css */
+  
+.body {
+  background-color: #3F3D56;
+}
+
+
+
+.logoNav {
+    width: 20vh;
+
+  }
+  
+  /* tarjeta */
+  /* .bgcolores {
+    margin-bottom: 30px;  
+  } */
+  
+  /* Línea divisoria entre el navbar y el main */
+  .nav-divider {
+    height: 15px;
+    background: linear-gradient(91deg, #804276, #667999, #663377, #884846); 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    
+  }
+
+  .navbar-nav {
+    margin-left: 90vh;
+  }
+
+  .nav-link{
+    color: white;
+  }
+  
+  .custom-navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vh; 
+    font-family: 'Manrope', sans-serif;
+  
+  }
+
+  .container-nav{
+   margin-left: 5vh;
+  }
+
+  /* Main */
+  .container-main{
+    margin-top: 170px;
+    margin-bottom: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .col-6{
+    text-align: center;
+  }
+  
+  /* Bienvenidos */
+  .container-main h2 {
+    color: white; 
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 20vh;
+  }
+  
+  /* Nuestro trabajo */
+  .container-main h5 {
+    color: white; 
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .container-main h6 {
+    color: white; 
+    font-family: 'Manrope', sans-serif;
+  }
+  /* Estilo de los íconos */
+  
+  /* íconos navbar */
+  
+  .fa.fa-user{
+    background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+  }
+  
+  .fa.fa-home {
+    background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+  }
+  
+  
+  
+  /* Íconos footer-Izquierda */
+  
+  .fas.fa-phone{
+     background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    
+  }
+  
+  
+  .far.fa-calendar-alt{
+     background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+  }
+  
+  .fas.fa-envelope.izq{
+    background: black;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 24px;
+  }
+  
+  .fa.fa-clock{
+     background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+  }
+  
+  .fas.fa-map-marker-alt.izq{
+    background: black;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 24px;
+  
+  }
+
+  /* Textos footer */
+  .list-unstyled{
+    color: white;
+    margin-top: 30px;
+  }
+
+  /* texto derechos reservados */
+  .d-flex{
+    color: white;
+  }
+  
+  /* íconos footer-derecha */
+  
+  .fas.fa-envelope.der{
+  background: black;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 35px;
+   margin-top: 30px;
+  }
+  
+  .fas.fa-map-marker-alt.der{
+    background: black;
+   -webkit-background-clip: text;
+   background-clip: text;
+   color: transparent;
+   font-size: 35px;
+   margin-top: 30px;
+  
+  }
+  
+  .fab.fa-facebook{
+    background: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    margin-top: 30px;
+  }
+  
+  /* Footer */
+ .footer{
+    background: linear-gradient(91deg, #804276, #667999, #663377, #884846);
+    margin-bottom: 0px; 
+  
+ }
+  
+  .footer-list li{
+    font-family: 'Manrope', sans-serif;
+    
+  }
+  
+  .footer-copyright {
+    font-family: 'Manrope', sans-serif; /* Cambia 'OtraFuente' por el nombre de la fuente que quieras usar */
+  margin: 0px;
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+.colum1{
+margin-left: 20px;
+}
+
+.mapa{
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+.rights-box {
+  background-color: rgba(63, 61, 86, 0.7); 
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  margin: 0px;
+}
+
+p{
+  font-size: 12px;
+}
+
+.slogan{
+  width: 80vh;
+  height: 10vh;
+  margin-left: 10vh;
+  margin-top: 10vh;
+}
+
+.bgcolores{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
