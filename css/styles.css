@@ -194,6 +194,7 @@ html {
  .footer{
     background: linear-gradient(91deg, #804276, #667999, #663377, #884846);
     margin-bottom: 0px; 
+    overflow: hidden;
   
  }
   
@@ -248,11 +249,11 @@ p{
    max-width: 100%;
   }
 
-
 }
 
 
 .mapa{
+  
   margin-top: 70px;
   margin-right: 20px;
 }
