@@ -214,10 +214,7 @@ html {
 margin-left: 20px;
 }
 
-.mapa{
-  margin-top: 70px;
-  margin-right: 20px;
-}
+
 
 .rights-box {
   background-color: rgba(63, 61, 86, 0.7); 
@@ -246,4 +243,16 @@ p{
   .slogan h5 {
      font-size: 16px; /* Ajusta el tamaño del texto según sea necesario */
   }
+
+  .mapa{
+   max-width: 100%;
+  }
+
+
+}
+
+
+.mapa{
+  margin-top: 70px;
+  margin-right: 20px;
 }
