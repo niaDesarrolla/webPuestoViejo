@@ -12,7 +12,11 @@ html {
   background-color: #3F3D56;
 }
 
+@media only screen and (max-width: 767px) {
+ 
 
+  
+}
 
 .logoNav {
     width: 20vh;
@@ -191,9 +195,12 @@ html {
   }
   
   /* Footer */
+
+
  .footer{
     background: linear-gradient(91deg, #804276, #667999, #663377, #884846);
     margin-bottom: 0px; 
+   
    
  }
   
@@ -238,28 +245,12 @@ p{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
+
 @media only screen and (max-width: 767px) {
   /* Estilos específicos para pantallas pequeñas */
   .slogan h5 {
      font-size: 16px; 
   }
 
-  .mapa{
-    width: 100%;
-   max-width: 600px;
-  }
-
 }
 
-
-.mapa{
-  
-  margin-top: 70px;
-  margin-right: 20px;
-
- /* estilos para pantallas pequeñas (móviles) */
- @media only screen and (max-width: 767px) {
-  margin-right: auto; /* Establece el margen derecho a "auto" para centrar el mapa en pantallas pequeñas */
-}
-
-}
