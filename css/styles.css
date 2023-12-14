@@ -194,8 +194,7 @@ html {
  .footer{
     background: linear-gradient(91deg, #804276, #667999, #663377, #884846);
     margin-bottom: 0px; 
-    overflow: hidden;
-  
+   
  }
   
   .footer-list li{
@@ -246,7 +245,8 @@ p{
   }
 
   .mapa{
-   max-width: 100%;
+    width: 100%;
+   max-width: 600px;
   }
 
 }
