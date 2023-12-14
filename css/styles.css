@@ -8,15 +8,13 @@ html {
 
   /* resto del css */
   
-.body {
+body {
   background-color: #3F3D56;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media only screen and (max-width: 767px) {
- 
-
-  
-}
 
 .logoNav {
     width: 20vh;
@@ -29,6 +27,11 @@ html {
   } */
   
   /* Línea divisoria entre el navbar y el main */
+  .barraNavegacion{
+    margin: 0;
+    padding: 0;
+    /* width: 600px; */
+  }
   .nav-divider {
     height: 15px;
     background: linear-gradient(91deg, #804276, #667999, #663377, #884846); 
@@ -36,14 +39,22 @@ html {
     margin-bottom: 10px; 
     
   }
-
-  .navbar-nav {
-    margin-left: 90vh;
+  
+  .navbar-collapse{
+    transform-origin: top;
+    margin-left: 100vh;
+    font-size: 19px;
   }
 
   .nav-link{
     color: white;
   }
+
+  /* .navbar-nav {
+    margin-left: 90vh;
+  } 
+
+
   
   .custom-navbar-nav {
     display: flex;
@@ -56,7 +67,6 @@ html {
   .container-nav{
    margin-left: 5vh;
   }
-
   /* Main */
   .container-main{
     margin-top: 170px;
