@@ -40,6 +40,12 @@ body {
     
   }
 
+  /* Estilos para pantallas grandes (mayores a 767px) */
+.navbar-collapse {
+  transform-origin: top;
+  margin-left: 100vh; 
+  font-size: 19px;
+}
   
 @media only screen and (max-width: 767px) {
   
