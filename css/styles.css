@@ -43,7 +43,7 @@ body {
   /* Estilos para pantallas grandes (mayores a 767px) */
 .navbar-collapse {
   transform-origin: top;
-  margin-left: 100vh; 
+  margin-left: 110vh; 
   font-size: 19px;
 }
   
@@ -53,6 +53,11 @@ body {
     transform-origin: top;
     margin-left: 0vh;
     font-size: 19px;
+  }
+
+  .logoNav {
+    margin-left: 0;
+    width: 10vh;
   }
 
 }
