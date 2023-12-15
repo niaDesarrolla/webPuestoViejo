@@ -39,13 +39,17 @@ body {
     margin-bottom: 10px; 
     
   }
+
+  
+@media only screen and (max-width: 767px) {
   
   .navbar-collapse{
     transform-origin: top;
-    margin-left: 100vh;
+    margin-left: 0vh;
     font-size: 19px;
   }
 
+}
   .nav-link{
     color: white;
   }
@@ -227,6 +231,7 @@ body {
   .bold-text {
     font-weight: bold;
   }
+
 .colum1{
 margin-left: 20px;
 }
@@ -263,4 +268,18 @@ p{
   }
 
 }
+
+@media only screen and (max-width: 767px) {
+  /* Estilos específicos para pantallas pequeñas */
+  .text-footer{
+    margin: 0;
+    padding: 0;
+  }
+
+.colum2{
+  margin-right: 100px;
+}
+
+}
+
 
