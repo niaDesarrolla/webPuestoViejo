@@ -300,9 +300,8 @@ body {
     padding: 13px;
     border-radius: 5px; 
     width: 35vh;
-    height: 20vh;
+    height: 10vh;
     text-align: center;
-    margin-left: 120px;
   }
   
   .menu-list li:hover {
@@ -310,7 +309,7 @@ body {
     padding: 13px;
     border-radius: 5px; 
     width: 35vh;
-    height: 20vh;
+    height: 10vh;
   }
   
   .menu-list li.active {
@@ -319,7 +318,7 @@ body {
     padding: 13px;
     border-radius: 5px; 
     width: 35vh;
-    height: 20vh;
+    height: 10vh;
   
   }
 
