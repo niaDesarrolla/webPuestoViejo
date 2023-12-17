@@ -371,11 +371,6 @@ p{
   h1 {
     margin-top: 60px;
     margin-left: 20px;
-    /* background: linear-gradient(91deg, #804276, #667999, #663377, #884846);
-    background-clip: text; /* Versión sin el prefijo -webkit */
-    /* color: transparent;
-    font-size: 30px;
-    text-align: center;  */
     color: white;
     text-align: center;
   }

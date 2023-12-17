@@ -20,11 +20,7 @@ body {
     width: 20vh;
 
   }
-  
-  /* tarjeta */
-  /* .bgcolores {
-    margin-bottom: 30px;  
-  } */
+
   
   /* Línea divisoria entre el navbar y el main */
   .barraNavegacion{
@@ -66,23 +62,6 @@ body {
     color: white;
   }
 
-  /* .navbar-nav {
-    margin-left: 90vh;
-  } 
-
-
-  
-  .custom-navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100vh; 
-    font-family: 'Manrope', sans-serif;
-  
-  }
-
-  .container-nav{
-   margin-left: 5vh;
-  }
   /* Main */
   .container-main{
     margin-top: 170px;
