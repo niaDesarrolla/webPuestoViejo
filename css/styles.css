@@ -58,6 +58,7 @@ body {
   .logoNav {
     position: relative;
     width: 10vh;
+    z-index: 2;
   }
 
 }
