@@ -367,9 +367,10 @@ html {
         width: 80vw; 
         height: 20vh;
         position: absolute;
-        top: 177vh;
+        top: 140vh;
         left: 50%; 
-        transform: translateX(-50%);  
+        transform: translateX(-50%); 
+      
       }
       
     }
