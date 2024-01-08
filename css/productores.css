@@ -233,15 +233,13 @@ html {
   
   
   @media only screen and (max-width: 767px) {
-   /* Estilos específicos para pantallas pequeñas */
    .slogan h5 {
       font-size: 16px; 
    }
-  
   }
   
   @media only screen and (max-width: 767px) {
-   /* Estilos específicos para pantallas pequeñas */
+  
    .text-footer{
      margin: 0;
      padding: 0;
@@ -366,22 +364,17 @@ html {
     }
   
     .vector {
-      position: static; 
-      width: 50%; 
-      height: 50vh; 
-      top: auto;  
-      left: auto; 
-      right: auto; 
+        width: 80vw; 
+        height: 20vh;
+        position: absolute;
+        top: 177vh;
+        left: 50%; 
+        transform: translateX(-50%);  
+      }
+      
     }
   
-    h1 {
-      margin-top: 60px;
-      margin-left: 20px;
-      color: white;
-      text-align: center;
-    }
   
-  }
   
   
   .menu{
@@ -398,25 +391,6 @@ html {
   .menu-list2 a.text-decoration-none {
     color: white;
 }
-
-/* 
-.item-list2  a {
-  cursor: pointer;
-  padding: 13px;
-  transition: background 0.3s;
-  padding: 13px;
-  border-radius: 5px; 
-  width: 60vh;
-  height: 10vh;
-}
-
-.item-list2 a:hover {
-    background: linear-gradient(91deg, #804276, #667999, #663377, #884846);
-}
-
-.menu-list2{
-  padding: 20px;
-} */
 
 .item-list2 {
   font-size: 18px;
@@ -472,6 +446,14 @@ html {
 }
 
 
+h1 {
+  color: rgb(242, 231, 242);
+  text-align: center; 
+  width: 60vh;
+  height: 10vh;
+  margin-left: 13vh;
+}
+
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 767px) {
@@ -483,22 +465,18 @@ html {
     
   }
 
-
   h1 {
-    margin-top: 60px;
-    margin-left: 20px;
-    color: white;
-    text-align: center;
+    color: #f7f7f7;
+    text-align: left;
+    width: 30vh;
+    height: 5vh;
+
   }
 
-}
+  .menu-list{
+    margin-bottom: 10vh;
+  }
 
-h1 {
-  color: white;
-  text-align: center; 
-  width: 60vh;
-  height: 10vh;
-  margin-left: 13vh;
 }
 
 .menu{
