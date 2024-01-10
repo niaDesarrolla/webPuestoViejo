@@ -1,3 +1,4 @@
+
 /* ESTILOS DEL NAVBAR Y EL FOOTER */
 /* Reinicio de css personalizado */
 html {
@@ -67,6 +68,13 @@ body {
     margin-bottom: 250px;
     margin-left: 25px;
     margin-right: 25px;
+  }
+
+  @media screen and (max-width: 767px){
+    .container-main{
+      margin-top: 120px;
+    }
+    
   }
   
   .col-6{
@@ -364,10 +372,10 @@ p{
   }
 
   .vector {
-      width: 80vw; 
+      width: 70vw; 
       height: 20vh;
       position: absolute;
-      top: 138vh;
+      top: 170vh;
       left: 50%; 
       transform: translateX(-50%); 
     
@@ -463,6 +471,7 @@ h1 {
   text-align: left;
   width: 30vh;
   height: 5vh;
+  bottom: 20vh;
 
 }
 

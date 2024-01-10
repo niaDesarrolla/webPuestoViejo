@@ -343,7 +343,7 @@ p{
   background-position: center; 
   position: absolute;
   bottom: 30vh;
-  top: 80vh;
+  top: 90vh;
   left: 115vh;
   transform: translateX(90%); 
   z-index: 1; 
@@ -353,10 +353,12 @@ p{
 /* Media query para pantallas pequeñas */
 @media (max-width: 767px) {
   .parrafoEI-container {
-    flex-direction: column; /* Cambia la dirección del contenedor a columna */
-    align-items: center; /* Centra los elementos */
-    justify-content: center;
+    flex-direction: column; 
     margin-bottom: 30px;
+    position: relative;
+    text-align: last;
+    left: 0vh;
+    right: 10vh;
     
   }
 
@@ -364,7 +366,7 @@ p{
       width: 80vw; 
       height: 20vh;
       position: absolute;
-      top: 138vh;
+      top: 181vh;
       left: 50%; 
       transform: translateX(-50%); 
     
@@ -393,6 +395,13 @@ font-size: 18px;
 bottom: 5px;
 top: 20px;
 right: 15vh;
+}
+
+@media (max-width: 767px) {
+ .item-list2 {
+right: 12vh;
+} 
+
 }
 
 /* para desplazar el elemento hacia la derecha cuando el cursor está sobre él */
